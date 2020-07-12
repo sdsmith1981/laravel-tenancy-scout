@@ -1,8 +1,8 @@
 <?php
 
-namespace GeneaLabs\LaravelTenantScout\Providers;
+namespace GeneaLabs\LaravelTenancyScout\Providers;
 
-use GeneaLabs\LaravelTenantScout\Console\Import;
+use GeneaLabs\LaravelTenancyScout\Console\Import;
 use Illuminate\Support\ServiceProvider;
 
 class Service extends ServiceProvider

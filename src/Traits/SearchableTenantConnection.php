@@ -1,6 +1,6 @@
 <?php
 
-namespace GeneaLabs\LaravelTenantScout\Traits;
+namespace GeneaLabs\LaravelTenancyScout\Traits;
 
 use Hyn\Tenancy\Traits\UsesTenantConnection;
 use Laravel\Scout\Searchable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace GeneaLabs\LaravelTenantScout\Console;
+namespace GeneaLabs\LaravelTenancyScout\Console;
 
 use Hyn\Tenancy\Contracts\Repositories\WebsiteRepository;
 use Hyn\Tenancy\Database\Connection;

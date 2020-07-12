@@ -1,5 +1,5 @@
 {
-    "name": "genealabs/laravel-tanancy-scout",
+    "name": "genealabs/laravel-tenancy-scout",
     "description": "Providing scout commands for the Laravel Tenancy package.",
     "type": "library",
     "license": "MIT",
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "GeneaLabs\\LaravelModelCaching\\": "src/"
+            "GeneaLabs\\LaravelTenancyScout\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "GeneaLabs\\LaravelTenantScout\\Providers\\Service"
+                "GeneaLabs\\LaravelTenancyScout\\Providers\\Service"
             ]
         }
     },
