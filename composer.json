@@ -1,0 +1,32 @@
+{
+    "name": "genealabs/laravel-tanancy-scout",
+    "description": "Providing scout commands for the Laravel Tenancy package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Bronner",
+            "email": "hello@genealabs.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "illuminate/support": "^7.19",
+        "laravel/scout": "*",
+        "hyn/multi-tenant": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeneaLabs\\LaravelModelCaching\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GeneaLabs\\LaravelTenantScout\\Providers\\Service"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
