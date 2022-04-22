@@ -3,7 +3,7 @@ Providing scout commands for the Laravel Tenancy package.
 
 ## Installation
 ```sh
-composer require genealabs/laravel-tanancy-scout
+composer require genealabs/laravel-tenancy-scout
 ```
 
 ## Usage
